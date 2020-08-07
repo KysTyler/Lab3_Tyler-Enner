@@ -10,5 +10,30 @@ package lab3_tyler.enner;
  * @author ENNER
  */
 public class Estado_de_registro {
+    //Atributos
+    private Personas Personas;
     
+    //Constructor
+
+    public Estado_de_registro() {
+    }
+
+    public Estado_de_registro(Personas Personas) {
+        this.Personas = Personas;
+    }
+    
+    //Mutador
+
+    public Personas getPersonas() {
+        return Personas;
+    }
+
+    public void setPersonas(Personas Personas) {
+        this.Personas = Personas;
+    }
+
+    @Override
+    public String toString() {
+        return "Estado_de_registro{" + "Personas=" + Personas + '}';
+    }
 }
