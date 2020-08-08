@@ -15,6 +15,11 @@ public class Posiciones {
     public Posiciones() {
     }
 
+    public Posiciones(String nombre) {
+        this.nombre = nombre;
+    }
+    
+
     public String getNombre() {
         return nombre;
     }

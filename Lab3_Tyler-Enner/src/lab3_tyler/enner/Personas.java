@@ -14,6 +14,7 @@ public class Personas {
     private Posiciones posicion;
     private String identificacion;
    private Estado_de_registro estado;
+   
 
     public Personas(String nombre, Posiciones posicion, String identificacion, Estado_de_registro estado) {
         this.nombre = nombre;

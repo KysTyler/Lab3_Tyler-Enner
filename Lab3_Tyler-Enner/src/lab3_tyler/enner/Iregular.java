@@ -11,13 +11,6 @@ package lab3_tyler.enner;
  */
 public class Iregular extends Estado_de_registro{
     
-    public Iregular() {
-        super();
-    }
-
-    public Iregular(lab3_tyler.enner.Personas Personas) {
-        super(Personas);
-    }
     //Mutadores
 
     @Override

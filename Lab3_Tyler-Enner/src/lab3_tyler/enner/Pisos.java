@@ -13,7 +13,7 @@ import java.util.ArrayList;
  */
 public class Pisos {
     private String admin;
-    private Ranker evaluador;
+    private ArrayList<Ranker> evaluador;
     private Ranker Director;
     private ArrayList <Personas> persons = new ArrayList();
     private int nivel;
@@ -21,7 +21,7 @@ public class Pisos {
     public Pisos() {
     }
 
-    public Pisos(String admin, Ranker evaluador, Ranker Director, int nivel) {
+    public Pisos(String admin,ArrayList<Ranker> evaluador, Ranker Director, int nivel) {
         this.admin = admin;
         this.evaluador = evaluador;
         this.Director = Director;
@@ -36,11 +36,11 @@ public class Pisos {
         this.admin = admin;
     }
 
-    public Ranker getEvaluador() {
+    public ArrayList<Ranker> getEvaluador() {
         return evaluador;
     }
 
-    public void setEvaluador(Ranker evaluador) {
+    public void setEvaluador(ArrayList<Ranker> evaluador) {
         this.evaluador = evaluador;
     }
 

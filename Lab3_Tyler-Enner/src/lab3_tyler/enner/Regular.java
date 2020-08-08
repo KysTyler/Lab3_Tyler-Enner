@@ -16,12 +16,10 @@ public class Regular extends Estado_de_registro{
     private String contraseña;
     
     //Atributos
-    public Regular() {
-        super();
-    }
+    
 
-    public Regular(String usuario, String contraseña, lab3_tyler.enner.Personas Personas) {
-        super(Personas);
+    public Regular(String usuario, String contraseña) {
+        
         this.usuario = usuario;
         this.contraseña = contraseña;
     }
